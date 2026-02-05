@@ -37,9 +37,13 @@ func transition_with_state(next_state: FSM_State):
 		print("---- END transition_with_state ----")
 
 	# Check if the current state can transition to the next state
-	if not current_state.transitions_names.has(next_state.name):
-		if debug:
-			push_error("%s does not belong to the transitions " % next_state.name)
+	if current_state:
+		if not current_state.transitions_names.has(next_state.name):
+			if debug:
+				push_error("%s does not belong to the transitions " % next_state.name)
+			return
+	else:
+		push_error("current_state not exist")
 		return
 
 	self.state_exited.emit(current_state)
