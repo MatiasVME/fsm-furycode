@@ -1,6 +1,6 @@
-class_name FSM_State
 extends Node
 
+class_name FSM_State
 
 @onready var state_machine := get_parent()
 
