@@ -1,7 +1,8 @@
-class_name FSM_StateMachine
 extends Node
 
-@onready @export var target: Node2D
+class_name FSM_StateMachine 
+
+@export var target: Node2D
 
 @export var initial_state: String
 
