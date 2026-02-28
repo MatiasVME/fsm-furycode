@@ -2,7 +2,15 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://bvrmr42vxplvm"
+=======
+<<<<<<< HEAD
+uid="uid://cv4jg6xmt8g5q"
+=======
+uid="uid://bvrmr42vxplvm"
+>>>>>>> 514736f (changes)
+>>>>>>> cffd914
 path="res://.godot/imported/statemachine.png-d528134b6ce4097dd6dd43283ab60113.ctex"
 metadata={
 "vram_texture": false
